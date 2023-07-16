@@ -173,6 +173,7 @@ margin-left: 30rem;
   background-color: rgba(128, 128, 128, 0.361);
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -186,4 +187,13 @@ td{
  
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+#del,#cancle{
+  background-color: rgba(255, 51, 0, 0.674);
+height: 1.3rem;
+}
+#edi,#save{
+  background-color: rgba(0, 157, 255, 0.509);
+height: 1.3rem;
 }
