@@ -36,3 +36,154 @@
     transform: rotate(360deg);
   }
 }
+
+/*------------------------------------------Nav--------------------------------------------*/
+.nav{
+  height: 3rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: rgb(94, 92, 92);
+}
+.nav div{
+margin:1rem;
+}
+.dli{
+  display: flex;
+}
+.dli li{
+  margin: 1rem;
+  list-style-type:none;
+}
+
+/*-----------------Home---------------------*/
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  background-image: url('https://img.freepik.com/premium-photo/abstract-white-background-modern-design-technology-concept_38013-1704.jpg?w=900');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.det{
+  width: 30rem;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(94, 92, 92);
+}
+.det span{
+  color: cadetblue;
+}
+
+.mainb{
+  margin: 2rem;
+  height: 2.5rem;
+  width: 6rem;
+  font-size: medium;
+  border-radius: 1rem;
+  border: none;
+  background-color: #131313;
+  color: azure;
+}
+.mainb:hover{
+  cursor: pointer;
+ 
+  background-color:transparent;
+  color: rgb(81, 241, 233);
+  border: 1px solid rgba(247, 244, 244, 0.297);
+}
+
+/*---------------------Footer---------*/
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  height: 3rem;
+  color: azure;
+  
+
+}
+
+/*----------------------User-----------*/
+.user{
+  background-image: url('https://img.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg?w=900&t=st=1689500919~exp=1689501519~hmac=052b15147a91908bf59790be9f287851811e1a75bfee906f758a1af01582b0bb');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user1{
+  height: 10rem;
+  border-radius: 1rem;
+background-color: rgba(240, 255, 255, 0.087);
+ border: 1px solid rgb(240, 255, 255, 0.087);
+}
+.user1 div{
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user1 div label{
+  color: azure;
+  margin-right: 0.5rem;
+  
+}
+.user1 div input{
+  height: 1rem;
+outline: none;
+background-color: 240, 255, 255, 0.087;
+font-weight: bold;
+}
+#all{
+  margin-top: 0%;
+margin-left: 30rem;
+}
+#link{
+  text-decoration: none;
+  color: #282c34;
+}
+
+.msg{
+  color: aliceblue;
+  font-size: medium;
+}
+
+/*-----------------------------------Table-------------------------------------------------*/
+.table{
+  background-color: rgba(128, 128, 128, 0.361);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+thead{
+  font-weight: bold;
+}
+td{
+  padding: 0.4rem;
+}
+ table,thead, td, tr{
+ 
+  border: 1px solid black;
+  border-collapse: collapse;
+}
